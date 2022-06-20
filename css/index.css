@@ -1,0 +1,153 @@
+    body {
+        background-color: #fff;
+    }
+    
+    .m-navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 11.8133vw;
+    }
+    
+    .m-navbar .logo {
+        width: 16.3467vw;
+        height: 7.4667vw;
+        margin-left: 4.8vw;
+    }
+    
+    .m-navbar .right {
+        display: flex;
+        justify-content: space-between;
+        width: 160.12px;
+        margin-right: 3.2vw;
+    }
+    
+    .m-navbar .right a:nth-child(1) img {
+        display: block;
+        width: 5.8667vw;
+        height: 5.8667vw;
+    }
+    
+    .m-navbar .right a:nth-child(2) img {
+        display: block;
+        width: 6.4053vw;
+        height: 6.4053vw;
+        border-radius: 50%;
+    }
+    
+    .m-navbar .right a:nth-child(3) img {
+        display: block;
+        width: 19.2vw;
+        height: 6.4vw;
+    }
+    
+    .nav {
+        position: relative;
+        height: 10.6667vw;
+        overflow: hidden;
+    }
+    
+    .nav .nav-xiala {
+        position: absolute;
+        z-index: 1;
+        width: 100%;
+        height: 42.6667vw;
+        padding: 2.6667vw 5.3333vw 5.3333vw;
+        box-sizing: border-box;
+        background-color: #fff;
+        transform: translateY(-42.6667vw);
+    }
+    
+    .nav .nav-xiala::before {
+        position: absolute;
+        bottom: -1.3333vw;
+        left: 50%;
+        transform: translateX(-50%);
+        content: "";
+        display: inline-block;
+        width: 2.6667vw;
+        height: 2.6667vw;
+        border-right: 2px solid #AAAAAA;
+        border-bottom: 2px solid #AAAAAA;
+        transform: rotateZ(-135deg);
+    }
+    
+    .nav .nav-xiala li {
+        float: left;
+    }
+    
+    .nav .nav-xiala li a {
+        display: inline-block;
+        color: #505050;
+        font-size: 3.7333vw;
+        margin: 2.1333vw;
+    }
+    
+    .nav .nav-xiala li a:hover {
+        color: #FB7299;
+    }
+    
+    .nav .nav-row {
+        display: flex;
+        border-bottom: 0.2667vw solid #F3F3F3;
+    }
+    
+    .nav .nav-row li {
+        flex: 1;
+        font-size: 3.7333vw;
+        text-align: center;
+    }
+    
+    .nav .nav-row li a {
+        display: inline-block;
+        color: #505050;
+        height: 10.6667vw;
+        line-height: 10.6667vw;
+    }
+    
+    .nav .nav-row li a:hover {
+        color: #FB7299;
+        border-bottom: 2px solid #FB7299
+    }
+    
+    .nav .xiala {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 10.6667vw;
+        height: 10.6667vw;
+        background-color: #fff;
+    }
+    
+    .nav .xiala::before {
+        position: absolute;
+        top: 3.2vw;
+        left: 3.2vw;
+        content: "";
+        display: inline-block;
+        width: 2.6667vw;
+        height: 2.6667vw;
+        border-right: 2px solid #AAAAAA;
+        border-bottom: 2px solid #AAAAAA;
+        transform: rotateZ(45deg);
+    }
+    /* ???下拉怎么实现 */
+    
+    .recomend {
+        height: 10.6667vw;
+    }
+    
+    .recomend ul {
+        display: flex;
+    }
+    
+    .recomend ul li a {
+        display: inline-block;
+        color: #505050;
+        height: 10.6667vw;
+        line-height: 10.6667vw;
+        font-size: 3.7333vw;
+        padding: 0 4.2667vw;
+        box-sizing: border-box;
+    }
